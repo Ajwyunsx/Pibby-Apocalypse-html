@@ -41,7 +41,7 @@ jobs:
           haxelib set hxcpp 4.2.1
     
       - name: Building
-        run: haxelib run lime build html Project.xml -release
+        run: haxelib run lime build html -release
 
       - name: Upload Artifact
         uses: actions/upload-artifact@main
